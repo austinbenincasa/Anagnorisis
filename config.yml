@@ -1,0 +1,10 @@
+SiteConfig:
+  core:
+    port: 8081
+    updater_timeout: 100 # miliseconds
+    watcher_timeout: 5000 # miliseconds
+    threads: 4
+  log:
+    path: 'anagnorisis.log'
+    console: false
+    flush_period: 3
