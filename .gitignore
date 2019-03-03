@@ -32,3 +32,5 @@
 *.app
 
 build/
+server/include/rapidjson
+server/include/spdlog
