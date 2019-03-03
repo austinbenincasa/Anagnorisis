@@ -1,3 +1,6 @@
-[submodule "include/spdlog"]
-	path = include/spdlog
+[submodule "server/include/spdlog"]
+	path = server/include/spdlog
+	url = https://github.com/austinbenincasa/spdlog.git
+[submodule "server/include/spdlog"]
+	path = server/include/spdlog
 	url = https://github.com/austinbenincasa/spdlog.git
