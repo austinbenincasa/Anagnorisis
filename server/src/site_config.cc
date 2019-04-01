@@ -14,7 +14,6 @@ void SiteConfig::parseConfig() {
         config = YAML::LoadFile(config_path);
     } 
     catch (YAML::Exception) {
-        std::cout << "SiteConfig: Could not parse " << config_path << std::endl;
         valid = false;
         return;
     }
