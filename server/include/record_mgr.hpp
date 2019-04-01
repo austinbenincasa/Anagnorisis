@@ -5,7 +5,6 @@
 #include <thread>
 #include <atomic>
 #include <vector>
-#include <iostream>
 #include <sstream>
 #include <random>
 #include <climits>
